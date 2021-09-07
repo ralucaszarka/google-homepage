@@ -1,0 +1,26 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    width: 15%;
+    height: auto;
+}
+input[type=search] {
+    width: 27%;
+    margin: 20px 660px;
+    padding: 10px 12px;
+}    
+div {
+    margin: 20px 0px 20px 800px;
+}
+ul li{
+    display: inline;
+    list-style-type: none;
+}
+#limbi-disponibile {
+    margin: 30px 50px 5px 750px;
+}
+.limbi-disp {
+    text-decoration: none;
+}
