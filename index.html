@@ -3,6 +3,7 @@
     <head>
         <title>Google</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"/>
         <link rel="stylesheet" href="google-homepage-style.css">
     </head>
     <body>
@@ -15,22 +16,31 @@
                 <li><a class="nav-bar" id="conectati-va" href="">Conectati-va</a></li>
             </ul>
         </nav>
-        <header>
-        <img class="box google-logo" src="https://www.freepnglogos.com/uploads/google-logo-png/file-google-logo-svg-wikimedia-commons-23.png" alt="Google-logo">
-        <form action="" method="GET">
-            <input id="search" type="search" name="search" >
-        </form>
+        <main>
+        <header class="google-logo-img">
+            <img class="google-logo google-logo-img" src="https://www.freepnglogos.com/uploads/google-logo-png/file-google-logo-svg-wikimedia-commons-23.png" alt="Google-logo">
         </header>
-    <div>
-       <button type="button">Cautare Google</button>
-       <button type="button">Ma simt norocos</button>
-    </div>
-    <div id="limbi-disponibile">
+            <div id="content">
+                <div class="search" id="search-div">
+                <form class="search" action="" method="GET">
+                  <input id="search" type="search" name="search">
+                </form>
+           </div>
+      <div id="button">
+       <button  id="button1" type="button">Cautare Google</button>
+       <button  id="button2" type="button">Ma simt norocos</button>
+      </div>
+      <div id="limbi-disponibile">
             <ul>Google oferit in:
                 <li class="limbi-disp"><a href="">magyar</a></li>
                 <li class="limbi-disp"><a href="">Deutsch</a></li>
                 <li class="limbi-disp"><a href="">English</a></li>
             </ul>
-        </div>
+      </div>
+      </main>
+      <div class="footer1">
+            <div class="box"><a href="">Romania</a></div>
+            <div class="box"><a href="">Despre &nbsp;</a> <a href=""> &nbsp;Publicitate &nbsp;</a> <a href=""> &nbsp;Companii &nbsp;</a> <a href=""> &nbsp;Cum functioneaza Cautarea &nbsp;</a><a id="confidentialitate" class="right-footer" href="">Confidentialitate&nbsp;</a><a class="right-footer" href="">&nbsp;Termeni&nbsp;</a><a class="tight-footer" href="">&nbsp;Setari&nbsp;</a></div>
+      </div>
     </body>
 </html>
