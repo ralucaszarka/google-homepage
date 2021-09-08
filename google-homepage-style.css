@@ -6,21 +6,68 @@ img {
     width: 15%;
     height: auto;
 }
+
 input[type=search] {
     width: 27%;
     margin: 20px 660px;
     padding: 10px 12px;
 }    
+
+#navigation-bar {
+    text-align: right;
+    margin-top: -120px;
+}
+#navigation-bar li{
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.nav-bar {
+    text-decoration: none;
+    display:inline;
+}
+
+.nav-bar:hover {
+    text-decoration: underline;
+}
+
+#aplicatii {
+    width: 15px;
+}
+
+#conectati-va{
+    font-size: 20px;
+    padding: 6px 15px 6px 15px;
+    background-color: #4169E1;
+    color: white;
+}
+
+#conectati-va:hover {
+    text-decoration: none;
+    background-color: #1E90FF;
+}
+
 div {
     margin: 20px 0px 20px 800px;
 }
-ul li{
+
+.limbi-disp{
     display: inline;
     list-style-type: none;
+    text-decoration: none;
 }
+
 #limbi-disponibile {
     margin: 30px 50px 5px 750px;
 }
-.limbi-disp {
+
+.limbi-disp a {
     text-decoration: none;
+}
+
+.limbi-disp a:hover {
+    text-decoration: underline;
 }
