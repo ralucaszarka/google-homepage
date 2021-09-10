@@ -24,6 +24,18 @@
     margin-right: 5px;
 }
 
+@media (min-width: 600px) {
+    #search {
+        width: 250px;
+    }
+}
+
+@media (max-width: 599px) {
+    #search {
+        width: 220px;
+    }
+}
+
 .nav-bar {
     text-decoration: none;
     display:inline;
