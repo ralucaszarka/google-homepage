@@ -27,12 +27,14 @@
 @media (min-width: 600px) {
     #search {
         width: 250px;
+        margin: 0 auto;
     }
 }
 
 @media (max-width: 599px) {
     #search {
         width: 220px;
+        margin: 0 auto;
     }
 }
 
